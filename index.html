@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Lato" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Plant-Rich Meals</title>
+</head>
+
+<body>
+    <header id="mh-header">
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-4">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button id="search" class="btn my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="col-4">
+                    <img id="logo" src="img/prmlogo-transparent.png" />
+                </div>
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-right">
+                                <a href="#">
+                                    <button type="button" class="fa fa-twitter"></button>
+                                </a>
+                                <a href="#">
+                                    <button type="button" class="fa fa-facebook"></button>
+                                </a>
+                                <a href="#">
+                                    <button type="button" class="fa fa-instagram"></button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="#">LOGIN</a> | <a href="#">SIGNUP</a>                           
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- Navigation -->
+        <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Breakfast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lunch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dinner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Snacks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Deserts</a>
+                    </li>
+                </ul>
+        </nav>
+
+    <!-- START CAROUSEL -->
+
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <!-- <h3 class="mb-3">Carousel cards title </h3> -->
+                </div>
+                <!-- <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div> -->
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/easy-vegetarian-chili-recipe.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Easy Vegetarian Chili</h4>
+                                                <p class="card-text">How could I make a list of plant-based recipes without including veggie chili?! Top this smoky, spicy stew with creamy avocado and pickled onions for pop.</p>
+                                                <!-- https://www.loveandlemons.com/vegetarian-chili-recipe/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/stuffed-poblano-peppers.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Stuffed Poblano Peppers</h4>
+                                                <p class="card-text">Tomatillo salsa adds zesty flavor to these super-veggie stuffed peppers. Cauliflower, bell pepper, and spinach round out the rice and bean filling.</p>
+                                                <!-- https://www.loveandlemons.com/stuffed-poblano-peppers/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/veggie-burger.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Best Veggie Burger</h4>
+                                                <p class="card-text">When I say best, I mean it. This plant-based burger is hearty, savory, smoky, and satisfying. Oh, and it’s grill-able too!</p>
+                                                <!-- https://www.loveandlemons.com/best-veggie-burger-recipe/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/soba-noodles-recipe.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Sesame Soba Noodles</h4>
+                                                <p class="card-text">These yummy noodles are one of my favorite plant-based recipes! Feel free to vary the veggies with the seasons. I love snap peas and radishes in the spring, but cucumber, carrots, shaved cabbage, and sautéed mushrooms are great here too.</p>
+                                                <!-- https://www.loveandlemons.com/sesame-soba-noodles/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">   
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/best-buddha-bowl-recipe.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Best Buddha Bowl</h4>
+                                                <p class="card-text">Cozy roasted sweet potatoes, chickpeas, and brown rice make this bowl hearty and satisfying. I round it out with massaged kale, radishes, carrots, and cabbage, but all sorts of veggies would work here. Experiment with roasted cauliflower, broccoli, or butternut squash!</p>
+                                                <!-- https://www.loveandlemons.com/buddha-bowl-recipe/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/healthy-taco-salad.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Healthy Taco Salad</h4>
+                                                <p class="card-text">You won’t find any meat or cheese in this plant-based taco salad, but don’t worry – you won’t miss them one bit! Crispy tortilla strips, shiitake-walnut taco “meat,” and a creamy cilantro lime dressing make it an irresistible weeknight meal.</p>
+                                                <!-- https://www.loveandlemons.com/taco-salad-recipe/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/salsa-verde.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Tomatillo Salsa Verde</h4>
+                                                <p class="card-text">It’s so easy to buy tomatillo salsa verde in a jar, but it’s SO much better when you make it fresh yourself. This is my go-to green salsa verde recipe. It’s fresh, it’s tangy, and a little bit spicy.</p>
+                                                <!-- https://www.loveandlemons.com/tomatillo-salsa-verde/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/stuffed-acorn-squash-recipes.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Stuffed Acorn Squash</h4>
+                                                <p class="card-text">A tempeh and mushroom filling makes this stuffed acorn squash a satisfying main dish. Don’t skip the pomegranate arils on top – they offer a sweet, bursty contrast to the savory filling.</p>
+                                                <!-- https://www.loveandlemons.com/stuffed-acorn-squash/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/twice-baked-sweet-potatoes.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Twice Baked Sweet Potatoes</h4>
+                                                <p class="card-text">How do you make a puffy baked sweet potato even more delicious? Top it with a bright broccoli salad and a to-die-for sauce! Seriously, you’re going to love the sauce here. It’s a creamy, cozy blend of baked sweet potato flesh, cashews, and rosemary. Yum!</p>
+                                                <!-- https://www.loveandlemons.com/twice-baked-sweet-potatoes/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/vegan-broccoli-soup.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Vegan Broccoli Soup</h4>
+                                                <p class="card-text">My dairy-free riff on classic broccoli cheese soup! Its thick, creamy texture comes from blended potato, carrots, and cashews, and fresh dill, apple cider vinegar, and nutritional yeast create its savory, cheesy flavor.</p>
+                                                <!-- https://www.loveandlemons.com/vegan-broccoli-soup/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/spaghetti-squash-with-chickpeas-and-kale.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Spaghetti Squash with Chickpeas and Kale</h4>
+                                                <p class="card-text">Sun-dried tomatoes and fresh rosemary add depth to this comforting plant-based recipe. I posted it over 6 years ago, but it’s still one of our most popular recipes. Trust me, you don’t want to miss it!</p>
+                                                <!-- https://www.loveandlemons.com/roasted-spaghetti-squash-w-chickpeas-kale/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="img/portabello-mushroom-burger.jpeg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Portobello Mushroom Burger</h4>
+                                                <p class="card-text">Plant-based recipes don’t get easier than this. Douse portobello mushroom caps in balsamic and tamari, and grill them until they’re juicy and charred. Then, pile them into hamburger buns with all the fixings, and eat!</p>
+                                                <!-- https://www.loveandlemons.com/portobello-mushroom-burger/ -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- END CAROUSEL -->
+
+    <!-- <section class="mh-main">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+    </section> -->
+
+    <footer>
+
+    </footer>
+
+
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+     <script src="js/jquery.slim.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     
+ </body>
+ </html>

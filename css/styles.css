@@ -1,0 +1,52 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    /* background-color:#F9EED2; */
+}
+
+#logo {
+    width:250px;
+}
+
+/* .navbar-brand {
+    font-family: "Lobster", cursive;
+    font-size: 33px;
+} */
+
+#mh-header a {
+    color: #222;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    line-height: 1;
+    letter-spacing: 1px;
+    padding:0;
+    text-transform: uppercase;
+}
+
+#search {
+    /* background-color:#A7B923; */
+    background-color: #FF9175;
+}
+.navbar {
+    font-family: "Lato", sans-serif;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:active, .nav-link:hover {
+    color: green;
+}
+
+.carousel-control.left .glyphicon {
+    left: 0;
+    margin-left: 0;
+}
+.carousel-control.right .glyphicon {
+    right: 0;
+    margin-right: 0;
+}
